@@ -1,0 +1,40 @@
+{
+  "name": "bigfont",
+  "version": "0.0.1",
+  "description": "A tool to enlarge the text.",
+  "main": "bigfont.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zswang/bigfont.git"
+  },
+  "keywords": [
+    "CSS",
+    "Transformation",
+    "bigfont"
+  ],
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zswang/bigfont/issues"
+  },
+  "homepage": "https://github.com/zswang/bigfont",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jdists": "^0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "_update_version": "node version.js",
+    "dist": "npm run _update_version && gulp",
+    "debug": "gulp debug"
+  },
+  "files": [
+    "bigfont.js",
+    "README.md"
+  ]
+}
