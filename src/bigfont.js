@@ -21,12 +21,12 @@
 
   var exports = exports || {};
 
-  /*<jdists fndep="font5x7" import="font5x7.js">*/
+  /*<jdists encoding="fndep" depend="font5x7" import="font5x7.js">*/
   var font5x7 = require('./font5x7');
   /*</jdists>*/
   exports.font5x7 = font5x7;
 
-  /*<jdists fndep="font10x7" import="font10x7.js">*/
+  /*<jdists encoding="fndep" depend="font10x7" import="font10x7.js">*/
   var font10x7 = require('./font10x7');
   /*</jdists>*/
   exports.font10x7 = font10x7;

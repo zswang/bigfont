@@ -5,7 +5,7 @@
    * A tool to enlarge the text.
    * @author
    *   zswang (http://weibo.com/zswang)
-   * @version 0.0.4
+   * @version 0.0.5
    * @date 2016-07-13
    */
   var exports = exports || {};
@@ -881,7 +881,6 @@ var font5x7 = (function () {
   };
 })();
 /*</function>*/
-module.exports = font5x7;
   exports.font5x7 = font5x7;
   /*<function name="font10x7">*/
 var font10x7 = (function () {
@@ -1046,7 +1045,6 @@ var font10x7 = (function () {
   };
 })();
 /*</function>*/
-module.exports = font10x7;
   exports.font10x7 = font10x7;
   /**
    * 获取字符点阵图案
