@@ -5,7 +5,7 @@
    * A tool to enlarge the text.
    * @author
    *   zswang (http://weibo.com/zswang)
-   * @version 0.0.3
+   * @version 0.0.4
    * @date 2016-07-13
    */
   var exports = exports || {};
@@ -937,6 +937,13 @@ var font10x7 = (function () {
       XX_____,
       XX_____,
       _XXXXXX,
+    ],
+    D: [
+      XXXXXX_,
+      XX___XX,
+      XX___XX,
+      XX___XX,
+      XXXXXX_,
     ],
     E: [
       XXXXXXX,

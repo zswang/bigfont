@@ -58,6 +58,14 @@ var font10x7 = (function () {
       _XXXXXX,
     ],
 
+    D: [
+      XXXXXX_,
+      XX___XX,
+      XX___XX,
+      XX___XX,
+      XXXXXX_,
+    ],
+
     E: [
       XXXXXXX,
       XX_____,
