@@ -1,6 +1,6 @@
 {
   "name": "bigfont",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tool to enlarge the text.",
   "main": "bigfont.js",
   "repository": {
@@ -30,7 +30,8 @@
     "gulp-uglify": "^1.5.3",
     "mocha": "^2.0.1",
     "istanbul": "^0.3.17",
-    "should": "^4.1.0"
+    "should": "^4.1.0",
+    "jshint": "^2.5.8"
   },
   "dependencies": {},
   "scripts": {

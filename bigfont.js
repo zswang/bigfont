@@ -5,7 +5,7 @@
    * A tool to enlarge the text.
    * @author
    *   zswang (http://weibo.com/zswang)
-   * @version 0.0.2
+   * @version 0.0.3
    * @date 2016-07-13
    */
   var exports = exports || {};
@@ -1168,7 +1168,7 @@ module.exports = font10x7;
             dict[key][offset[2]] = (dict[key][offset[2]] + 1) % 2;
             dict[key][offset[3]] = (dict[key][offset[3]] + 1) % 2;
           });
-        })
+        });
       });
     }
     var height = grid.length;

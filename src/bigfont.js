@@ -162,7 +162,7 @@
             dict[key][offset[2]] = (dict[key][offset[2]] + 1) % 2;
             dict[key][offset[3]] = (dict[key][offset[3]] + 1) % 2;
           });
-        })
+        });
       });
     }
     var height = grid.length;
