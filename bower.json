@@ -1,0 +1,27 @@
+{
+  "homepage": "https://github.com/zswang/bigfont",
+  "main": "bigfont.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "devDependencies": {},
+  "ignore": [
+    "src",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "name": "bigfont",
+  "description": "A tool to enlarge the text.",
+  "keywords": [
+    "font",
+    "big",
+    "lcd",
+    "large"
+  ],
+  "version": "0.0.2"
+}

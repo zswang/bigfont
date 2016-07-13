@@ -1,6 +1,6 @@
 {
   "name": "bigfont",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to enlarge the text.",
   "main": "bigfont.js",
   "repository": {
@@ -8,9 +8,10 @@
     "url": "https://github.com/zswang/bigfont.git"
   },
   "keywords": [
-    "CSS",
-    "Transformation",
-    "bigfont"
+    "font",
+    "big",
+    "lcd",
+    "large"
   ],
   "author": {
     "name": "zswang",
@@ -24,14 +25,22 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-jdists": "^0.0.5",
+    "gulp-examplejs": "^0.0.5",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.3"
+    "gulp-uglify": "^1.5.3",
+    "mocha": "^2.0.1",
+    "istanbul": "^0.3.17",
+    "should": "^4.1.0"
   },
   "dependencies": {},
   "scripts": {
     "_update_version": "node version.js",
-    "dist": "npm run _update_version && gulp",
-    "debug": "gulp debug"
+    "_dist": "gulp",
+    "lint": "jshint src/*.js",
+    "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec",
+    "example": "gulp example",
+    "mocha": "mocha",
+    "dist": "npm run _update_version && npm run example && npm run _dist && npm run test"
   },
   "files": [
     "bigfont.js",
